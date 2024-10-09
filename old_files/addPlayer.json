@@ -1,0 +1,14 @@
+{
+    "isLeagueManager": false,
+    "teamId": 8,
+    "type": "FREEAGENT",
+    "scoringPeriodId": 4,
+    "executionType": "EXECUTE",
+    "items": [
+        {
+            "playerId": 4362238,
+            "type": "ADD",
+            "toTeamId": 8
+        }
+    ]
+}
