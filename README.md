@@ -11,10 +11,11 @@ The tool allows you to automatically set the best lineup for your fantasy teams 
 - Selenium (`pip install selenium`)
 - Chrome WebDriver (Make sure it's installed and accessible)
 - `webdriver_manager` package (`pip install webdriver_manager`)
+- `espn_api` for getting player info (`pip install espn_api`)
 
 To download packages, paste and run in terminal:
 ```bash
-pip install selenium webdriver_manager
+pip install selenium webdriver_manager espn_api
 ```
 
 ### Step 1: Setting up the `config.json` file
