@@ -12,6 +12,11 @@ The tool allows you to automatically set the best lineup for your fantasy teams 
 - Chrome WebDriver (Make sure it's installed and accessible)
 - `webdriver_manager` package (`pip install webdriver_manager`)
 
+To download packages, paste and run in terminal:
+```bash
+pip install selenium webdriver_manager
+```
+
 ### Step 1: Setting up the `config.json` file
 
 Before you can run the automation, you'll need to set up the `config.json` file that contains authentication information for your ESPN fantasy football teams. Follow the steps below:
