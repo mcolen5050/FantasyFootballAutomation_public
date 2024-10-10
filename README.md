@@ -18,6 +18,62 @@ To download packages, paste and run in terminal:
 pip install selenium webdriver_manager espn_api
 ```
 
+### Quick Setup with VSCode
+
+To set up everything quickly in VSCode, follow these steps:
+
+1. **Create a Folder for the Project**:
+   - Open VSCode.
+   - Create a new folder where you want to store the project files. You can do this directly in VSCode:
+     - Go to `File` > `Open Folder...`, then select or create a new folder.
+
+2. **Clone the Repository**:
+   - Open the integrated terminal in VSCode (`Ctrl+J` or `Cmd+J` on macOS).
+   - Navigate to the folder you just created by running:
+   
+     ```bash
+     cd path/to/your/folder
+     ```
+
+   - Clone the repository using the following command:
+   
+     ```bash
+     git clone https://github.com/mcolen5050/FantasyFootballAutomation_public.git
+     ```
+
+   - Once the cloning is done, navigate to the project directory:
+
+     ```bash
+     cd FantasyFootballAutomation_public
+     ```
+
+3. **Run the `setup.sh` File**:
+   - Run the `setup.sh` file to install all dependencies and set up the virtual environment:
+   
+     ```bash
+     bash setup.sh
+     ```
+
+   - The script will automatically create and activate a virtual environment (`fantasy_env`), and install the necessary Python packages.
+
+4. **Set Up Python Environment in VSCode**:
+   - After running the `setup.sh` file, a prompt may appear in VSCode asking if you want to switch to the newly created virtual environment. If the prompt appears, select "Yes" to activate it.
+   - If the prompt does **not** appear, manually set the virtual environment:
+     - Press `Ctrl+Shift+P` (or `Cmd+Shift+P` on macOS) to open the Command Palette.
+     - Search for `Python: Select Interpreter`.
+     - Select the `fantasy_env` virtual environment associated with the project.
+
+5. **Running the Code**:
+   - Open any Python file in the repository (e.g., `main.py`).
+   - At the top of the window, click the green **Run** button or press `F5` to run the file.
+
+6. **Launching from the Terminal**:
+   - You can also run the code from the built-in VSCode terminal by opening the terminal (`Ctrl+J` or `Cmd+J` on macOS) and running the Python script:
+   
+     ```bash
+     python main.py
+     ```
+
 ### Step 1: Setting up the `config.json` file
 
 Before you can run the automation, you'll need to set up the `config.json` file that contains authentication information for your ESPN fantasy football teams. Follow the steps below:
